@@ -1,5 +1,9 @@
 # FuelCategoryModFix
 
+# Warning
+
+This script was developed with some assistance from Gemini, I looked it over with my basic level of Powershell experience and it seems solid, but **<ins>you are running this script at your own risk!</ins>** Back up your save data and mods folder before running the script to be on the safe side!
+
 ## Description
 Used to soft patch mods for Factorio after the 2.1.20 update that changed ItemPrototype::fuel_category with ItemPrototype::fuel_categories. Original credit to /u/cathexis08/ for the idea to use a grep to do a direct replace on the lines in the modfiles. Original thread [here.](https://www.reddit.com/r/factorio/comments/1wn7lvx/comment/pbdmqyz/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 
