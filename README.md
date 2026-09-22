@@ -8,8 +8,7 @@ The script will back up the mod directory, comb through the mod directory, and i
 
 ## Usage
 1) Download the script.
-2) Run the script from a terminal using the following command: `powershell -ExecutionPolicy Bypass -File "PathToWhereModfixIsStored\ModFix.ps1" -ModDirectory "PathToYourModDirectory"`
-2a) Example:  `powershell -ExecutionPolicy Bypass -File "C:\Users\exampleuser\Downloads\ModFix.ps1" -ModDirectory "C:\Users\exampleuser\appdata\Roaming\Factorio\mods\"`
+2) Run the script from a terminal using the following command: `powershell -ExecutionPolicy Bypass -File "PathToWhereModfixIsStored\ModFix.ps1" -ModDirectory "PathToYourModDirectory"` Example:  `powershell -ExecutionPolicy Bypass -File "C:\Users\exampleuser\Downloads\ModFix.ps1" -ModDirectory "C:\Users\exampleuser\appdata\Roaming\Factorio\mods\"`
 3) The script should create a backup folder with a time and date stamp in your Factorio appdata folder, and then will replace the offending mods with patched mods.
 4) Start Factorio and confirm it's working!
 
